@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Design Exercises</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        body {
+            padding-left:40px;
+            padding-right: 40px;
+            line-height: 1.6;
+        }
+        h1 {
+            font-weight: bold;
+        }
+        br {
+            line-height: .75;
+        }
+        .images {
+            max-width: 90%;
+            display: block;
+            margin: 20px;
+        }
+        .wireframes{
+            max-width: 30%;
+            display: inline-block;
+            margin: 5px;
+        }
+        .sketches{
+            max-width: 20%;
+            display: inline-block;
+            margin: 10px;
+        }
+        .secondary{
+            max-width: 25%;
+            margin-left: 34%
+        }
+        #to_top{
+            position: fixed;
+            bottom: 0.75em;
+            right: 1em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+    	<div class="col-md-2"></div>
+    	<div class="col-md-8">
+    	<div class="page-header center">
+        	<h1>Design Exercises</h1>
+            <p>Condensing IMDb's "Movies" and "Theaters" Tabs</p>
+    	</div>
+    	<h3>Overview of Design Process</h3>
+            <ol>
+                <li>
+                    <a href="#initial">Initial Brainstorm/Ideation</a>
+                    <ul>
+                        <li>Study and critique current interface.</li>
+                        <li>Think about posed design problem, record thoughts.</li>
+                    </ul>
+                    </li>
+                <li>
+                    <a href="#thumbnails">Rudimentary (Thumbnail) Sketches</a>
+                    <ul>
+                        <li>Try to think broadly about a variety of approaches without becoming too fixated on any specific idea.</li>
+                    </ul>
+                    </li>
+                <li>
+                    <a href="#secondary">Secondary/Supplementary Sketch</a>
+                    <ul>
+                        <li>Based on initial brainstorm and sketches, refine potential interface ideas.</li>
+                    </ul>
+                    </li>
+                <li>
+                    <a href="#personas">Development of Personas</a>
+                    <ul>
+                        <li>Consider different attitudes, different user types</li>
+                    </ul>
+                    </li>
+                <li>
+                    <a href="#wireframe">Creation of Wireframes</a>
+                    <ul>
+                        <li>Use Balsamiq to develop, annotate wireframes</li>
+                    </ul>
+                    </li>
+                <li>
+                    <a href="#visual">Visual Redesign</a>
+                    <ul>
+                        <li>Use Sketch to develop refined mockups</li>
+                    </ul>
+                    </li>
+                <li>
+                    <a href="#selfcrit">Self-Critique</a>
+                    <ul>
+                        <li>Pros/cons from a UX design perspective</li>
+                        <li>Pros/cons from an aesthetic perspective</li>
+                    </ul>
+                    </li>
+                <li>
+                    (Receive feedback, iterate, test, etc)
+                    </li>
+            </ol>
+        
+        <h3 id="initial">1. Initial Brainstorm/Ideation</h3>
+            <p>I began by studying the current IMDb site and recording my own complaints and experiences attempting to navigate. I found that the information listed on two tabs in question ("Movies" and "Theaters") was largely redundant. It almost seemed as though IMDb was afraid that people wouldn't find the "Theaters" tab, so they put a great deal information about theaters in the "Movies" tab. Below are a few screenshots documenting my original brainstorm session. I then attempted to brainstorm different approaches to an improved IMDb interface. </p>
+            <a href="images/brainstorm1.png">
+                <img src="images/brainstorm1.png" class="images">
+                </a>
+            <a href="images/brainstorm2.png">
+                <img src="images/brainstorm2.png" class="images">
+                </a>
+            
+            
+        <h3 id="thumbnails">2. Rudimentary (Thumbnail) Sketches</h3>
+            <p>(Click for larger view)</p>
+            <a href="images/sketch1.jpeg">
+                <img src="images/sketch1.jpeg" class="sketches">
+                </a>
+            <a href="images/sketch2.jpeg">
+                <img src="images/sketch2.jpeg" class="sketches">
+                </a>
+            <a href="images/sketch3.jpeg">
+                <img src="images/sketch3.jpeg" class="sketches">
+                </a>
+            <a href="images/sketch4.jpeg">
+                <img src="images/sketch4.jpeg" class="sketches">
+                </a>
+            <p>Based on the approaches I came up with during my brainstorm, I sketched a few possible ideas for what an interface might look like. I considered a movie-centric, theater-centric, search-centric, and time-centric approach for the IMDb interface. 
+            </p>
+
+            
+        <h3 id="secondary">3. Secondary/Supplementary Sketch</h3>
+            <a href="images/secondary1.jpeg">
+                <img src="images/secondary1.jpeg" class="secondary sketches">
+                </a>
+            <p>Taking into account the types of users that might interact with the interface, I decided to proceed with developing my second sketch. I chose to pursue this idea because I thought it had the most potential to provide useful information about both movies and theaters without being too heavily weighted towards either. The other approaches I considered were more one-dimensional. For instance, sketch 3 (of the previous section) depicts a search-centric approach to a movie database interface - kind of like a search engine. People would be able to find any number of movies by any number of criterias and categories, but it would be quite text-heavy and somewhat dreary looking. </p>
+            
+        <h3 id="personas">4. Development of Personas</h3>
+            <p>I developed some simple personas to represent a few of the different types of people that might use this interface. </p>
+            <ol>
+                <li>Middle-schooler Ariana, who often hangs out at the movie theaters on the weekends with her friends. She likes superhero movies, and horror.
+                    </li>
+                <li>Katie. She just graduated college. She hasn't been to an actual movie theater in a while, but watches a lot of shows on Netflix. She's not really into mainstream movies. 
+                    </li>
+                <li>Tom. He's the father of two elementary school-age kids, so he's pretty concerned about movie ratings. He prefers that one movie theater in his neighborhood with the large, comfy chairs.
+                    </li>
+                <li>Entertainment journalist Maria. She writes for the local paper and wants to know how movies are doing in the box office. 
+                    </li>
+            </ol>
+            <p>I considered how each persona might interact with my proposed interface. It would be important for customers like Ariana, Tom, and Maria to be able to see information about each movie. Tom and Ariana would likely want to know which movies were playing at their favorite theaters, and when. On the other hand, the information about theaters shouldn't be too obtrusive on the page, because that might alienate people like Katie (who don't necessarily care too much about showtimes). After all, IMDb is first and foremost a movie database, so there should be a fair amount of spotlight on the movies themselves. I concluded that there should be a balance between the focus on movies and on theaters, but that information about both should be accessible to anyone visiting the page.</p>
+
+        <h3 id="wireframe">5. Creation of Wireframes</h3>
+            <a href="images/wireframe1.png">
+                <img src="images/wireframe1.png" class="wireframes">
+                </a>
+            <a href="images/wireframe2.png">
+                <img src="images/wireframe2.png" class="wireframes">
+                </a>
+            <a href="images/wireframe3.png">
+                <img src="images/wireframe3.png" class="wireframes">
+                </a>
+            <a href="images/anno_wireframe1.png">
+                <img src="images/anno_wireframe1.png" class="wireframes">
+                </a>
+            <a href="images/anno_wireframe2.png">
+                <img src="images/anno_wireframe2.png" class="wireframes">
+                </a>
+            <a href="images/wireframe3.png">
+                <img src="images/anno_wireframe3.png" class="wireframes">
+                </a>
+
+            <p>I used the wireframing software Balsamiq to visualize my "Movies and Showtimes" interface idea for the new page.</p> 
+            <p>In my wireframes, I propose a static secondary header (below the main, darker IMDb header) with options to refine the movie results by dates in theaters, genres, release year, and radius. (A user could, for instance, specify that they only want to see movies that are playing tomorrow in theaters within a 10-mile radius. The movie images would reflect those sarch results.) Furthermore, the right-hand side of the secondary header has a dropdown menu which allows the user to sort the displayed results by popularity, ranking, etc.  </p>
+            <p>Below this secondary header, the window is split into left- and right hand panels. The left-hand panel shows theater and showtime information. A small map panel displays the current location by default and can be adjusted to show a desired location, by using the search bar within the panel. Theaters within the specified radius are marked by pins and hovering over any theater will show basic theater information like name, address, and hours. Clicking on a theater pin will cause the right-hand panel to show which movies are playing at that theater within a default or specified timeframe. Below the map panel is an informational panel that will display information about showtimes and tickets, and a user would be able to buy tickets through that panel. This entire left-hand panel would be both expandable and minimizable, and would stick to the left side. </p>
+            <p>The right-hand panel would be dedicated to displaying movie poster graphics, because I think visuals play a large part in considering and searching for movies. Hovering over a movie would, like the current IMDb interface, display a sort of tooltip that contains general information about the movie. Furthermore, clicking a movie would cause the map in the left-hand panel to display theaters within a default/specified radius that are scheduled to show the clicked movie. This action would also take the user to a page that displays more in-depth information about the movie (like actors, ratings, plot summary, etc.) </p>
+        
+        <h3 id="visual">6. Visual Redesign</h3>
+            <a href="images/mockup1.png">
+                <img src="images/mockup1.png" class="images">
+                </a>
+            <a href="images/mockup2.png">
+                <img src="images/mockup2.png" class="images">
+                </a>
+            <p>The movie grid would be responsive to resized windows.</p>
+            
+        <h3 id="selfcrit">7. Self-Critique</h3>
+            <p>From a UX perspective:<br>
+            I think much of the redundancy that plagues the current interface has been resolved, to some extent, by combining the two tabs. (I remember finding it absurd that in the current IMDb "Theaters" tab, the same movies kept appearing over and over again for every theater that they were being played at.) Things are less explicitly labelled. This might be confusing to some people who are unfamiliar with digital interactions in general. For instance, my interface would allow each panel/div other than the headers to be scrollable, independent of the other panels. I made this choice because I was frustrated with the scrolling functions of the current IMDb page. (Nothing is sticky, users have to keep scrolling back up to navigate or adjust results.) However, this might not be immediately apparent to someone who first visits the page. Furthermore, people who have become accustomed to using the IMDb site would likely voice a certain amount of resistance to any sort of sudden change. Finally, I think making the page responsive to different screen and window sizes would make the viewing experience much more enjoyable to anyone visiting the site from a tablet device.
+            </p>
+            <p>From an aesthetic perspective:<br>
+            The overall impression of the page is much darker. I personally don't think that this is a bad thing; it's somewhat evokative of the pitch-darkness of movie theaters and is relatively professional looking. However, I worry that there isn't enough contrast in between the "Refine Search" option text and its background. I think that my visual design is less cluttered overall - the current page has many, many levels of typographic hierarchy, which I attempted to condense into a fewer number. 
+            </p>
+            <br>
+            <p> Thank you for taking the time to read this! I very much enjoyed doing these exercises.
+            </p>
+            <br>
+            <br>
+    	</div>
+    </div>
+    <a href=# id="to_top">Back to Top</a>
+</body>
+</html>
